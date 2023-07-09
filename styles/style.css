@@ -67,7 +67,7 @@
     margin: auto;
 }
 .btn{
-    padding: 10px 20px;;
+    padding: 10px 30px;;
     font-size: 16px;
     border: none;
     margin: 2%;
@@ -77,18 +77,81 @@
     color: white;
 }
     
-    /* color: white;
-    background-color:rgb(245, 44, 44);
-    color: white;
-} */
-/* .btn-more{
-    background-color:rgb(245, 44, 44);
-    color: white;
-    display: inline; */
-}
-/* .buttons{
-    padding: 10px;
+.service-container{
+    height: 100vh;
+    background-image: url("../asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    /* background-position: center; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 30px;
+}
+.icon{
+    width: 100px;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.service-description{
+    width: 50%;
+}
+.first-two-boxes{
+    display: flex;
+    gap:10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius:35px ;
+}
+.author-container{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
     
-} */
+.btn-details{
+    padding: 15px 30px;
+    margin-left: 11px;
+    border-radius: 25px;
+    background-color: none;
+    border: 1px solid rgb(51, 48, 48);
+    color: rgb(12, 10, 10);
+}
+.title-service{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 7px;
+    color: rgb(190, 207, 208);
+}
+.service-description{
+    width: 75%;
+    font-size: 20px;
+    padding: 7px;
+    color:rgb(190, 207, 208); ;
+}
+.service-list{
+    list-style:decimal ;
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(190, 207, 208);
+}
