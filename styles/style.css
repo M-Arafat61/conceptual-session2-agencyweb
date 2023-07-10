@@ -112,6 +112,11 @@
     margin-top: 5px;
     margin-bottom: 10px;
 }
+
+.box, .box-title{
+    padding-bottom: 60px;
+}
+
 .author-img{
     width: 70px;
     height: 70px;
@@ -121,14 +126,29 @@
     display: flex;
     gap:20px;
     align-items: center;
+
 }
 .profile-container{
     display: flex;
     align-items: center;
     gap: 10px;
-
+    height: 55px;
+    /* border-right: 1px solid red;
+    padding-right: 60px; */
 }
-    
+.author-button{
+    border-left: 1px solid red;
+    padding-right: 10px;
+}
+/* .author-button{
+    padding: 15px 30px;
+    margin-left: 11px;
+    border-radius: 25px;
+    background-color: none;
+    border: 1px solid rgb(51, 48, 48);
+    color: rgb(12, 10, 10);
+} */
+
 .btn-details{
     padding: 15px 30px;
     margin-left: 11px;
@@ -150,8 +170,8 @@
     color:rgb(190, 207, 208); ;
 }
 .service-list{
-    list-style:decimal ;
-    padding: 15px;
+    /* list-style:decimal ; */
+    padding: 20px;
     font-size: 18px;
     color: rgb(190, 207, 208);
 }
