@@ -175,3 +175,44 @@
     font-size: 18px;
     color: rgb(190, 207, 208);
 }
+
+/* appointment section styles */
+
+.appointment-section{
+    width: 75%;
+    padding: 15px;
+    background-color:rgb(245, 44, 44);
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin: auto;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: -30px;
+    color: white;
+    
+
+}
+.call-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+}
+.appointment-desc{
+    padding: 10px;
+    text-align: justify;
+}
+.icon-appointment{
+    width: 100px;
+    padding: 15px;
+}
+.btn-appointment{
+    padding: 12px 25px;
+    margin-left: auto;
+    border-radius: 25px;
+    background-color: none;
+    border: 1px solid rgb(51, 48, 48);
+    color: rgb(12, 10, 10);
+} 
